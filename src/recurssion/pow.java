@@ -39,7 +39,7 @@ class Pow {
 
         // Test Case 1: Positive power
         double x1 = 2.0;
-        int n1 = 10;
+        int n1 = -10;
         System.out.println("2.0 ^ 10 = " + solver.myPow(x1, n1)); // Expected: 1024.0
 
         // Test Case 2: Negative power
