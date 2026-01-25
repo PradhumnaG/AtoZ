@@ -1,4 +1,4 @@
-package recurssion;
+package recurssion.recurssionOne;
 
 import java.util.Stack;
 
