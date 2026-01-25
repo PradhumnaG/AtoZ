@@ -38,4 +38,4 @@ class ReverseStack {
         // Step 3: Put the top element back on top of the new element
         s.push(top);
     }
-}}
+}
