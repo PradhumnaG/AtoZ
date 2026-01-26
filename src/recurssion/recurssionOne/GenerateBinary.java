@@ -7,11 +7,7 @@ package recurssion.recurssionOne;
         generateBinary("", n);
     }
 
-    /**
-     * Recursive function to generate binary strings
-     * @param current The string built so far
-     * @param n The target length
-     */
+
     public static void generateBinary(String current, int n) {
         // Base case: if the string has reached length n, print it
         if (current.length() == n) {
