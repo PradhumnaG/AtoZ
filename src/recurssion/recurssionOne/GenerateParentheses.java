@@ -21,7 +21,7 @@ public class GenerateParentheses {
             return;
         }
 
-        // Decision 1: Add an open parenthesis '('
+
         // Condition: We can only add '(' if we haven't used all n yet
         if (openN < n) {
             current.append("(");
