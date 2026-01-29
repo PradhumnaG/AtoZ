@@ -9,7 +9,7 @@ package recurssion.recurssionOne;
 
 
     public static void generateBinary(String current, int n) {
-        // Base case: if the string has reached length n, print it
+
         if (current.length() == n) {
             System.out.println(current);
             return;
