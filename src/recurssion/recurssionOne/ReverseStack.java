@@ -29,7 +29,7 @@ class ReverseStack {
             return;
         }
 
-        // Step 1: Remove the top element to access deeper layers
+
         int top = s.pop();
 
         // Step 2: Recursive call to keep going down
