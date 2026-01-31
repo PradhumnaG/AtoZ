@@ -6,7 +6,7 @@ public class MyAtoi {
         // 1. Handle empty or null strings
         if (str == null) return 0;
 
-        str = str.trim(); // Remove whitespace
+        str = str.trim();
 
         if (str.length() == 0) return 0;
 
