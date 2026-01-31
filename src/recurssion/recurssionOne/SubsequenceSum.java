@@ -38,6 +38,6 @@ public class SubsequenceSum {
         // Example 1 Test
         int[] nums2 = {4, 9, 2, 5, 1};
         int k2 = 10;
-        System.out.println("Test Example 1 Output: " + countSubsequences(nums2, 0, k2)); // Should be 2
+        System.out.println("Test Example 1 Output: " + countSubsequences(nums2, 0, k2));
     }
 }
