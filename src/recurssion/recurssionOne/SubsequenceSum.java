@@ -27,7 +27,6 @@ public class SubsequenceSum {
     }
 
     public static void main(String[] args) {
-        // Example from "Now your turn!"
         int[] nums = {1, 10, 4, 5};
         int k = 16;
 
