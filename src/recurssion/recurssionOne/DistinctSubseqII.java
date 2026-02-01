@@ -3,7 +3,7 @@ package recurssion.recurssionOne;
 class DistinctSubseqII {
     public int distinctSubseqII(String s) {
         int MOD = 1_000_000_007;
-        // endsWith[i] stores the count of distinct subsequences ending with the i-th character ('a' -> 0, etc.)
+
         long[] endsWith = new long[26];
         long total = 0;
 
