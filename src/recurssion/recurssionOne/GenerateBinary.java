@@ -18,7 +18,7 @@ package recurssion.recurssionOne;
 
         generateBinary(current + "0", n);
 
-        // Choice 2: Append '1' and recurse
+        // Choice 2: Append '1' and recur
         generateBinary(current + "1", n);
     }
 }
