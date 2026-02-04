@@ -25,7 +25,7 @@ class SubSetSumTwo{
         for(int i = idx;i < nums.length;i++){
             sus.add(nums[i]);
             solve(result,sus,nums,i +1);
-            sus.remove(sus.size() - 1);
+            sus.remove(sus.size() - 1);//
         }
     }
 }
