@@ -15,7 +15,7 @@ public class MyAtoi {
         long res = 0;
         int n = str.length();
 
-        // 2. Handle Signs (+ or -)
+        // 2. Handle Signs (+ or -
         // Check first character for sign
         if (str.charAt(0) == '-') {
             sign = -1;
