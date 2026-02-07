@@ -32,7 +32,8 @@ class ReverseStack {
 
         int top = s.pop();
 
-        // Step 2: Recursive call to keep going down
+        // Step 2: Recursive call to keep going dow
+
         insertAtBottom(s, element);
 
         // Step 3: Put the top element back on top of the new element
