@@ -23,7 +23,7 @@ class ReverseStack {
 
     // Helper method to insert an element at the very bottom of the stack
     private void insertAtBottom(Stack<Integer> s, int element) {
-        // Base case: If stack is empty, we found the bottom. Push the element here.
+        // Base case: If stack is empty, we found the bottom. Push the element here
         if (s.isEmpty()) {
             s.push(element);
             return;
