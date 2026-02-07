@@ -13,7 +13,7 @@ public class CountNumberofNiceSubarrays {
             res += map.getOrDefault(cur - k, 0);
             map.put(cur, map.getOrDefault(cur, 0) + 1);
         }
-        return res;
+        return res;//
 
     }
 
