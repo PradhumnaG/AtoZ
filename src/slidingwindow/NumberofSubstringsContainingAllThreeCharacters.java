@@ -10,7 +10,7 @@ package slidingwindow;
             int n = s.length();
 
             for (int right = 0; right < n; right++) {
-                // Add current character to window
+                // Add current character to wndow
                 count[s.charAt(right) - 'a']++;
 
                 // While window is valid (has at least one of a, b, and c)
