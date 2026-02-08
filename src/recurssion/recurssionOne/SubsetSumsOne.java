@@ -9,7 +9,7 @@ public class SubsetSumsOne {
     public List<Integer> subsetSums(int[] nums) {
         List<Integer> result = new ArrayList<>();
 
-        // Start recursion from index 0 with current sum 0
+        // Start recursion from index 0 with current sum 0.
         solve(0, 0, nums, result);
 
         // Sorting the output is standard for this problem to match test cases
