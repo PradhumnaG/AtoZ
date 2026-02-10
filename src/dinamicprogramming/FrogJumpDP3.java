@@ -11,7 +11,7 @@ package dinamicprogramming;
         // Initially, to reach index 0, cost is 0.
         int prev2 = 0;
 
-        // 'prev1' represents the minimum energy to reach step (i-1)
+        // 'prev1' represents the minimum energy to reach step (i-1)q
         // Initially, to reach index 1, cost is abs(heights[1] - heights[0])
         int prev1 = Math.abs(heights[1] - heights[0]);
 
