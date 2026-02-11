@@ -18,7 +18,7 @@ class FrogJumpWithKDistance
 
         // Iterate through every stone from 1 to n-1
         for (int i = 1; i < n; i++) {
-            // Check all possible jumps from previous stones (1 to k steps back)
+            // Check all possible jumps from previous stones (1 to k steps back).
             for (int j = 1; j <= k; j++) {
                 // Ensure we don't look back past the start of the array
                 if (i - j >= 0) {
