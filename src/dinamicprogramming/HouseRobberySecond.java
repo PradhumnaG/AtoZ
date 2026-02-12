@@ -17,7 +17,7 @@ package dinamicprogramming;
             int current = Math.max(prev2 +nums[i],prev1);
             prev2 = prev1;
             prev1 = current;
-        }
+        }//
         return prev1;
     }
 }
