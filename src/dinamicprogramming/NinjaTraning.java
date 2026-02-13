@@ -9,7 +9,7 @@ package dinamicprogramming;
 
         // 'prev' stores the max points possible ending with specific activities on the PREVIOUS day.
         // prev[0] = max points if we chose activity 0 yesterday
-        // prev[1] = max points if we chose activity 1 yesterday
+        // prev[1] = max points if we chose activity 1 yesterday.
         // prev[2] = max points if we chose activity 2 yesterday.
         int[] prev = new int[3];
 
