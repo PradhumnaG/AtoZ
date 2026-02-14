@@ -6,7 +6,7 @@ package slidingwindow;
         int maxSum = 0;
         int n = cardPoints.length;
 
-        // Step 1: Calculate the sum of the first k elements (initial window)
+        // Step 1: Calculate the sum of the first k elements (initial window
         for (int i = 0; i < k; i++) {
             lsum += cardPoints[i];
         }
