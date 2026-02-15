@@ -8,7 +8,7 @@ public class NQueens {
         List<List<String>> ans = new ArrayList<>();
         char[][] board = new char[n][n];
 
-        // Initialize board with empty dot
+        // Initialize board with empty dot.
         for (int i = 0; i < n; i++) {
             Arrays.fill(board[i], '.');
         }
