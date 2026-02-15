@@ -10,7 +10,7 @@ class DistinctSubseqII {
         for (char c : s.toCharArray()) {
             int index = c - 'a';
 
-            // Save the previous count of subsequences ending with this character
+            // Save the previous count of subsequences ending with this characte
             long prevCount = endsWith[index];
 
             // The new count of subsequences ending with 'c' is the total count of
