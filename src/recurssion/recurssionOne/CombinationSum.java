@@ -14,7 +14,7 @@ public class CombinationSum {
     public  static void fun(List<List<Integer>> all,List<Integer> al,int target,int [] candidates,int idx) {
         if(target == 0){
             all.add(new ArrayList<>(al));
-            return;
+            return;//
         }
         for(int i = idx;i<candidates.length;i++){
             if(candidates[i] <= target){
