@@ -13,5 +13,5 @@ package dinamicprogramming;
         int down = result(row +1,col);
         int right = result(row,col +1);
         return down + right;
-    }
+    }//
 }
