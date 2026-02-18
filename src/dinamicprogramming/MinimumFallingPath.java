@@ -18,6 +18,7 @@ public class MinimumFallingPath {
                 if (j < m - 1) {
                     minPrev = Math.min(minPrev, prevDP[j + 1]);
                 }
+                // Move the current row results to prevDP for the next iteration
                 currDP[j] = matrix[i][j] + minPrev;
             }
             prevDP = currDP;
