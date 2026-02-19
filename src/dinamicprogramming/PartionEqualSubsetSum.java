@@ -13,7 +13,7 @@ public class PartionEqualSubsetSum {
             return false;
         }
         int target = sum / 2;
-        Set<Integer> dp = new HashSet<>();
+        Set<Integer> dp = new HashSet<>();//
         dp.add(0);
         for (int i = nums.length - 1; i >= 0; i--) {
             Set<Integer> nextDP = new HashSet<>();
