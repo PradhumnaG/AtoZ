@@ -27,7 +27,7 @@ public class AddingTwoString
             inserted.add(target.substring(j, j + 1));
             j++;
         }
-
+//
         return new String[]{String.join("", deleted), String.join("", inserted)};
     }
 
