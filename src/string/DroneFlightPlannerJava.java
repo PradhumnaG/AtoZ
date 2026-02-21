@@ -21,7 +21,7 @@ class  DroneFlightPlannerJava {
             }
         }
 
-        // The required energy is the difference between the max altitude and start altitude.
+        // The required energy is the difference between the max altitude and start altitude
         // We use Math.max to ensure we don't return a negative number if the drone only descends.
         return Math.max(0, maxZ - startZ);
     }
