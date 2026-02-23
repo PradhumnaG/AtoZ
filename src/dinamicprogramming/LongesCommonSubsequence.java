@@ -1,6 +1,6 @@
 package dinamicprogramming;
 
-public class LongesCommonSubsequence class Solution {
+public class LongesCommonSubsequence  {
     public int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length();
         int n = text2.length();
