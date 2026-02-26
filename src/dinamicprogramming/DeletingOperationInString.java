@@ -7,8 +7,6 @@ public class DeletingOperationInString {
 
 
         int lcsLength = longestCommonSubsequence(word1, word2);
-
-
         return m + n - (2 * lcsLength);
     }
 
