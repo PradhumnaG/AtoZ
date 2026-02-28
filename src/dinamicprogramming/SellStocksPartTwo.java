@@ -1,5 +1,5 @@
 package dinamicprogramming;
-
+//infinite times
 public class SellStocksPartTwo  {
     public int maxProfit(int[] prices) {
         int bd = 0,sd = 0, p = 0;
