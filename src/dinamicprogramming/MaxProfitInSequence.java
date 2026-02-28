@@ -48,3 +48,4 @@ public class MaxProfitInSequence  {
         return ossp;
     }
 }
+//https://www.youtube.com/watch?v=GY0O57llkKQ
