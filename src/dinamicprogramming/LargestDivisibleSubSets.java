@@ -11,7 +11,7 @@ public class LargestDivisibleSubSets {
         if (n == 0) return new ArrayList<>();
 
         // Step 1: Sort the array (Explained at [05:25])
-        // Sorting ensures that if a % b == 0 and b % c == 0, then a % c == 0        Arrays.sort(nums);
+        // Sorting ensures that if a % b == 0 and b % c == 0, then a % c == 0        Arrays.sort(nums)
 
         // dp[i] stores the length of the largest divisible subset ending at index i
         int[] dp = new int[n];
