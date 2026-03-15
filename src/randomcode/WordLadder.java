@@ -1,5 +1,7 @@
 package randomcode;
 
+import java.util.*;
+
 public class WordLadder (String beginWord, String endWord, List<String> wordList) {
     Set<String> wordSet = new HashSet<>(wordList);
     if (!wordSet.contains(endWord)) return 0;
@@ -9,7 +11,7 @@ public class WordLadder (String beginWord, String endWord, List<String> wordList
     while (!queue.isEmpty()) {
         int size = queue.size();
         for (int i = 0; i < size; i++) {
-            String word = queue.poll();
+            String word = queue.poll()
             if (word.equals(endWord)) return steps;
             for (int j = 0; j < word.length(); j++) {
                 char[] chars = word.toCharArray();
