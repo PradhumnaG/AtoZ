@@ -9,7 +9,7 @@ public class CoinChangespaertTwo  {
 
         for (int i = 0; i < n; i++) {
             cache[i][0] = 1;
-        }
+        }//
 
 
         for (int j = 1; j <= amount; j++) {
